@@ -1,0 +1,49 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Сборка (React Native CLI)
+android/.gradle/
+android/app/build/
+android/app/.cxx/
+android/build/
+android/local.properties
+android/app/debug.keystore
+android/app/src/main/assets/
+android/gradle/wrapper
+ios/build/
+ios/Pods/
+ios/Blurr.xcworkspace/
+*.xcuserstate
+*.xccheckout
+
+# Expo (если не используете, но оставлю)
+.expo/
+web-build/
+expo-env.d.ts
+
+# IDE и система
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Безопасность
+.env
+.env.local
+.env.production
+*.jks
+*.p8
+*.p12
+*.key
+fastlane/screenshots/
+
+# Служебные
+.metro-health-check*
+*.hprof
+.kotlin/
+.bundle/
